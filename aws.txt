@@ -1,0 +1,5 @@
+1. ssh -i kirat-test-2.pem(file name) ubuntu(operating system we choice)@13:234:111:39(ip address we get when we get a machince on aws)
+2.if you see UNPROTECTED PRIVATE KEY FILE THEN  run this command chmod 700 kirat-test-2.pem  (for mac if you want for window just google it with the error you got)
+3. again run first command
+4. curl -o- https://raw.githubusercontent.com/nvm/v0.39.3/install.sh | bash
+5. npm i -g pm2   // backend will run forever
